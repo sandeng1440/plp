@@ -32,9 +32,9 @@ int main(){
   print("boolList[0]: ${getFirstElement(boolList)}");
 
   print("35.2 add 60.4: ${addTwo(num1,num2)}");
-  print("35.2 sub 60.4: ${subtractTwo(num1,num2)}");
-  print("35.2 mul 60.4: ${multiplyTwo(num1,num2)}");
-  print("35.2 div 60.4: ${divideTwo(num1,num2)}");
+  print("35.2 sub 60.4: ${subtractTwo(num1,num2).toStringAsFixed(2)}");
+  print("35.2 mul 60.4: ${multiplyTwo(num1,num2).toStringAsFixed(2)}");
+  print("35.2 div 60.4: ${divideTwo(num1,num2).toStringAsFixed(2)}");
 
   print("Length of string: ${stringLength(str)}");
   return 0;
