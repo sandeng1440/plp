@@ -23,6 +23,9 @@ int main(){
     "Four": 4,
     }
   
+  // Boolean: Store true or false
+  bool boolean = true;
+
   // Null: Used to store a lack of values
   var valNull = Null;
 
