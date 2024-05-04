@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PLP Store</title>
+</head>
+
+<body>
+  <header></header>
+  <nav>
+    <div id="nav-left">
+      <a href="{% url " home" %}" title="Home" id="logo">
+        <img src="" alt="PLP Logo">
+      </a>
+    </div>
+    <div id="nav-right">
+      <a href="{% url " cart" %}" title="Shopping Cart">Cart</a>
+      <a href="{% url " contact" %}" title="Contact Us">Contact</a>
+      <a href="{% url " signin" %}" title="Sign In">Sign In</a>
+      <a href="{% url " signup" %}" title="Sign Up">Sign Up</a>
+    </div>
+  </nav>
+  {% block content %}
+  {% endblock}
+</body>
+
+</html>
